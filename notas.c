@@ -19,7 +19,14 @@ int main(){
 
     media = (n1 + n2 + n3 + n4)/4;
 
-    printf("\nMEDIA = %.2f\n", media);
+    if (media >= 70){
+       printf("\nMEDIA = %.2f\n", media);
+       printf("STATUS: Aprovado\n"); 
+    }
+    else{
+        printf("\nMEDIA = %.2f\n", media);
+       printf("STATUS = Reprovado\n");
+    }
 
     return 0;
 }
