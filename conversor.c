@@ -19,8 +19,8 @@ float c, f, m, km, kg, lb;
         f = (c * 1.8) + 32;
 
         printf("\n=== TEMPERATURA ===\n");
-        printf("Celsiu: %.3f\n", c);
-        printf("Fahrenheit: %.3f\n", f);
+        printf("Celsiu: %.3fC\n", c);
+        printf("Fahrenheit: %.3fF\n", f);
     }
     //2. Converta distância (metros para quilômetros)
     else if (op == 2){
@@ -30,8 +30,8 @@ float c, f, m, km, kg, lb;
        km = m * 0.001;
 
         printf("\n=== DISTANCIA ===\n");
-        printf("Metros: %.3f\n", m);
-        printf("Quilometros: %.3f\n", km);  
+        printf("Metros: %.3fm\n", m);
+        printf("Quilometros: %.3fkm\n", km);  
     }
 
     //3. Converta peso (quilos para libras)
@@ -42,8 +42,8 @@ float c, f, m, km, kg, lb;
        lb = kg * 2.2046;
 
         printf("\n=== PESO ===\n");
-        printf("Quilos: %.3f\n", kg);
-        printf("Libras: %.3f\n", lb);  
+        printf("Quilos: %.3fkg\n", kg);
+        printf("Libras: %.3flb\n", lb);  
     }
 
     else{
